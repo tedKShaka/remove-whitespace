@@ -5,16 +5,17 @@ Remove Whitespace
  Usage
  --------------
 1. [Requires Python3](https://realpython.com/installing-python/)
-2. You can place the file in any folder, when run from command line as below(without arguments):
+2. You can place formatData.py in the folder containing the files you want to format, and when run from command line as below(without arguments):
 ```
 $ python3 formatData.py
 No directory provided, formatting current directory
-Formatting files in /Users/currentfolderhere
+Formatting files in /Users/currentfolder
 ```
  the script will go through every .txt file in the folder and remove excess data/errors/whitespace
+
 3. You can also provide an argument in the command line to target a different directory as below:
 ```
-$ python formatData.py /Users/whateverfolderyouwant/
+$ python3 formatData.py /Users/[whateverfolderyouwant]/
 Formatting files in Folder:/Users/whateverfolderyouwant/
 ```
 the script will perform the same function in that folder instead.
